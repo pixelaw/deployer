@@ -42,6 +42,8 @@ do
   echo "Cloning repository (${git_repo}) to ${i}"
   git clone ${git_repo} ${i}
 
+  rm -rf ${i}/.git
+
   cd ${i}/${contracts_dir}
 
   echo "Building contract"
@@ -66,7 +68,7 @@ do
     sleep 10
   done
 
-  cd dist_dir
+  cd $dist_dir
 
 done
 
