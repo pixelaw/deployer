@@ -23,6 +23,8 @@ fi
 # make directory dist if it does not exist and all apps cloned there should be inside that directory
 cd dist
 
+rm -r ./*
+
 dist_dir=$(pwd)
 
 echo "----------------------------------------------------------------------------"
