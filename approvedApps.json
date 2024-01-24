@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Hunter",
+    "git-repository": "git@github.com:pixelaw/examples.git",
+    "contracts-directory": "/hunter",
+    "scripts": []
+  },
+  {
+    "name": "Minesweeper",
+    "git-repository": "git@github.com:pixelaw/examples.git",
+    "contracts-directory": "/minesweeper",
+    "scripts": []
+  },
+  {
+    "name": "Rock Paper Scissors",
+    "git-repository": "git@github.com:pixelaw/examples.git",
+    "contracts-directory": "/rps",
+    "scripts": []
+  },
+  {
+    "name": "Tic Tac Toe",
+    "git-repository": "git@github.com:pixelaw/examples.git",
+    "contracts-directory": "/tictactoe",
+    "scripts": []
+  }
+]
